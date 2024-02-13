@@ -32,6 +32,6 @@ bot.on('ready', () => {
     console.log(`Bot ${bot.user.tag} is logged in!`);
 });
 
-bot.login(process.env.token).then(() => {
-    bot.user.setPresence({ activities: [{ name: 'BLESSED', type: 'WATCHING' }], status: 'online' });
+bot.login('MTE2MjYzOTY4OTM2MzIyNjY2NQ.GIZwIy.KPesaba5wU6ISvABUcUc-61lrH_1tk8tIaxXUY').then(() => {
+    bot.user.setPresence({ activities: [{ name: 'ARCELIA', type: 'WATCHING' }], status: 'online' });
 });
