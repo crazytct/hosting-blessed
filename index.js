@@ -32,6 +32,6 @@ bot.on('ready', () => {
     console.log(`Bot ${bot.user.tag} is logged in!`);
 });
 
-bot.login('MTE4OTkzMjc5MTc0NDQ0NjQ4NA.GiK1bq.sjnIMk6N8jOmUNtarQNsVY40NUREt2jkIYpX28').then(() => {
+bot.login(process.env.token).then(() => {
     bot.user.setPresence({ activities: [{ name: 'Blessed', type: 'WATCHING' }], status: 'idle' });
 });
