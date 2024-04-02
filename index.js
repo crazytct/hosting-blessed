@@ -33,5 +33,5 @@ bot.on('ready', () => {
 });
 
 bot.login(process.env.token).then(() => {
-    bot.user.setPresence({ activities: [{ name: 'Blessed', type: 'WATCHING' }], status: 'idle' });
+    bot.user.setPresence({ activities: [{ name: 'Roger', type: 'WATCHING' }], status: 'idle' });
 });
